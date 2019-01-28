@@ -14,7 +14,7 @@ import 'package:kernel/class_hierarchy.dart';
 import 'package:meta/meta.dart';
 import 'package:vm/frontend_server.dart' show ProgramTransformer;
 
-// Parameter name used to track were widget constructor calls were made from.
+// Parameter name used to track where widget constructor calls were made from.
 //
 // The parameter name contains a randomly generate hex string to avoid collision
 // with user generated parameters.
